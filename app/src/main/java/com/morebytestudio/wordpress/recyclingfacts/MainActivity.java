@@ -25,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
         FactsButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Random randomGen = new Random();
+                int randomenum = randomGen.nextInt(25);
                 String youssef = "95% من معلومات العالم لاتزال مخزنه على الورق واغلبها لاتتم مشاهدته مرة اخرى";
-                RecyclingFactsTextView.setText(youssef);
+                RecyclingFactsTextView.setText(youssef + randomenum);
             }
         });
     }

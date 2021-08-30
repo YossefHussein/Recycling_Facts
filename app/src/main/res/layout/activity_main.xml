@@ -18,6 +18,7 @@
         android:layout_marginTop="61dp"
         android:layout_marginEnd="66dp"
         android:layout_marginRight="66dp"
+        android:textSize="24dp"
         android:text="حقائق إعادة تدوير"
         android:textColor="#FFFFFF" />
 
@@ -26,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:textSize="20dp"
         android:text="إضغط لمعلومة جديدة"
         android:textColor="#FFFFFF" />
 
